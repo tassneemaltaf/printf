@@ -50,7 +50,8 @@ int _printf(const char *format, ...)
 		{
 			x = va_arg(args, int);
 
-			while (x != 0) {
+			while (x != 0)
+			{
 				x /= 10;
 				int_length++;
 			}
