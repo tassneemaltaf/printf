@@ -28,9 +28,6 @@ int _printf(const char *format, ...)
 			write(1, format, 1);
 			len++;
 		}
-		else{
-			format++;
-		}
 
 		if (*format == 'c')
 		{
@@ -75,6 +72,8 @@ int _printf(const char *format, ...)
 			write(1, &xi, sec_int_length);
 			len = len + sec_int_length;
 		}
+
+		format++;
 	}
 
 	va_end(args);
