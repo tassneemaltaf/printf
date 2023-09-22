@@ -1,6 +1,7 @@
 # Custom printf Function: \_printf
 
 This repository contains the source code for a custom `printf`-like function, `_printf`, which processes a format string and produces output according to the specified format.
+Note: This README is still under construction!!!
 
 ## Table of Contents
 
@@ -16,37 +17,16 @@ The `_printf` function is a custom implementation of a simple `printf`-like func
 
 ## Usage
 
-To use the `_printf` function in your C program, follow these steps:
 
-1. Include the `_printf` function in your C code.
-2. Call `_printf` with a format string and any additional arguments.
-
-```c
-#include "printf.h"
-
-int main() {
-    int num = 42;
-    char *str = "Hello, world!";
-    int char_count = _printf("This is a number: %d\nThis is a string: %s\n", num, str);
-    printf("\nTotal characters printed: %d\n", char_count);
-    return 0;
-}
 ```
 
 ## Implementation
 
-The `_printf` function processes a format string and handles the following conversion specifiers:
 
-- `%d`: Prints an integer.
-- `%s`: Prints a string.
-- `%c`: Prints a char.
-- `%i`: Prints a.
-
-Additional conversion specifiers can be added as needed.
 
 ## Example
 
-In the provided example, the `_printf` function handles `%d` for integers and `%s` for strings. For each specifier encountered, it prints the corresponding value to the standard output.
+
 
 ## Contributing
 
